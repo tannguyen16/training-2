@@ -1,0 +1,134 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.item1 { grid-area: item1; }
+.item2 { grid-area: item2; }
+.item3 { grid-area: item3; }
+.item4 { grid-area: item4; }
+.item5 { grid-area: item5; }
+.item6 { grid-area: item6; }
+.item7 { grid-area: item7; }
+
+.ad-grid-container {
+  display: grid;
+  height: 600px;
+  grid-template-areas:
+    'item1 item1 item2 item2'
+    'item1 item1 item3 item4';
+  background-color: #ffffff;
+  grid-gap: 5px;
+}
+
+.ad-grid-container div {
+  background-color: #E5DCC5;
+  text-align: center;
+  font-size: 30px;
+}
+
+.buy-grid-container {
+  display: grid;
+  height: 400px;
+  grid-template-areas:
+    'item1 item2 item3 item4';
+  background-color: #ffffff;
+  grid-gap: 30px;
+  margin: 0 50px;
+}
+
+.buy-grid-container div {
+  background-color: #E5DCC5;
+  text-align: center;
+  font-size: 30px;
+}
+
+.image-grid-container {
+  display: grid;
+  height: 200px;
+  grid-template-areas:
+    'item1 item2 item3 item4 item5 item6';
+  background-color: #ffffff;
+}
+
+.image-grid-container div {
+  background-color: #E5DCC5;
+  text-align: center;
+  font-size: 30px;
+}
+
+.description-grid-container {
+  display: grid;
+  height: 400px;
+  grid-template-areas:
+    'item1 item2'
+    'item3 item4';
+  background-color: #f3ebe3;
+  grid-gap: 30px;
+  padding: 20px 200px;
+}
+
+.description-grid-container div {
+  background-color: #E5DCC5;
+  text-align: center;
+  font-size: 30px;
+}
+
+.footer-grid-container {
+  display: grid;
+  height: 400px;
+  grid-template-areas:
+    'item1 item2 item3 item4'
+    'item5 item6 item7 item7';
+  background-color: #f3ebe3;
+  grid-gap: 30px;
+  padding: 20px 200px;
+}
+
+.footer-grid-container div {
+  background-color: #E5DCC5;
+  text-align: center;
+  font-size: 30px;
+}
+
+.header {
+  background-color: #372f2c;
+  width: 100%;
+  height: 50px;
+}
+
+.navigation {
+  background-color: #ffffff;
+  width: 100%;
+  height: 75px;
+  text-align: right;
+  text-justify: auto;
+  padding: 10px;
+  box-shadow: 0px 5px 5px #eee;
+  margin-bottom: 20px;
+}
+
+.section-header {
+  margin: 40px;
+  width: 100%;
+}
+
+.section-header-text {
+  text-align: center;
+}
+
+.section-divider {
+  height: 1px;
+  width: 10px;
+  background-color: #000;
+  display: inline-block;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #aaa;
+}
