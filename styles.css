@@ -495,3 +495,65 @@ body {
   padding-top: 5px;
   text-align: center;
 }
+
+.signup {
+  width: 60%;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.signup-header {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 30px;
+  text-align: center;
+}
+
+/* .newsletter-text-container {
+  width: 50%;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 30px;
+} */
+
+.signup-text {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.signup input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.signup #agree {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.signup #submit {
+  display: block;
+  width: 10%;
+  height: 40px;
+  padding: 10px;
+  color: white;
+  margin: 0px 0px;
+  border: 1px solid #552d00;
+  background-color: #552d00;
+}
+
+.signup #submit:hover {
+  border: 1px solid #552d00;
+  background-color: #402100;
+}
