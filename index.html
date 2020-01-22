@@ -7,11 +7,48 @@
             rel="stylesheet">
         <script src="https://kit.fontawesome.com/c15da929b1.js"
             crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="main.js"></script>
+
     </head>
     <body>
-        <div class="header"></div>
+        <div class="header">
+            <div class="header-left">
+                <div class="header-button button-1">Deutsch<i class="fas
+                        fa-chevron-down"></i></div>
+                <div>Gratis Lieferung ab € 20 (AT/DE)</div>
+            </div>
+            <div class="header-right">
+                <div class="header-button button-2"><i class="far fa-envelope"></i>Newsletter</div>
+            </div>
+        </div>
         <nav class="navigation">
             <div class="logo"></div>
+            <ul>
+                <li><div>Shop<i class="fas fa-chevron-down"></i></div><div
+                        class="underline"></div></li>
+                <li><div>Gastro & Buro<i class="fas fa-chevron-down"></i></div><div
+                        class="underline"></div></li>
+                <li><div>Kurse<i class="fas fa-chevron-down"></i></div><div
+                        class="underline"></div></li>
+                <li><div>Uber Uns</div><div
+                        class="underline"></div></li>
+                <li><div>Wissen</div><div
+                        class="underline"></div></li>
+                <li><div>Zubereitung</div><div
+                        class="underline"></div></li>
+                <li><div>Blog</div><div
+                        class="underline"></div></li>
+                <li><div><i class="fas fa-search"></i></div><div
+                        class="underline"></div></li>
+            </ul>
+            <div class="nav-separator"></div>
+            <ul>
+                <li><div>Anmelden</div><div
+                        class="underline"></div></li>
+                <li><div>0,00 € <i class="fas fa-shopping-cart"></i></div><div
+                        class="underline"></div></li>
+            </ul>
         </nav>
         <main>
             <div id="banner-grid" class="row">
@@ -123,6 +160,39 @@
                 <input type="text" placeholder="E-Mail-Adresse">
                 <input id="submit" type="submit" value="ANMELDE">
             </div>
+            <div id="carousel-header" class="section-header">
+                <b></b>
+                <div><span>NEUES AUS UNSEREM KAFFEE-BLOG</span></div>
+                <b></b>
+            </div>
+            <div id="carousel-container">
+                <div id="item-1" class="item">
+                    <div class="bg-fill-item"></div>
+                </div>
+                <div id="item-2" class="item">
+                    <div class="bg-fill-item"></div>
+                </div>
+                <div id="item-3" class="item">
+                    <div class="bg-fill-item"></div>
+                </div>
+                <div id="item-4" class="item">
+                    <div class="bg-fill-item"></div>
+                </div>
+                <div id="item-5" class="item">
+                    <div class="bg-fill-item"></div>
+                </div>
+                <div id="item-6" class="item">
+                    <div class="bg-fill-item"></div>
+                </div>
+                <div id="item-7" class="item">
+                    <div class="bg-fill-item"></div>
+                </div>
+                <div id="item-8" class="item">
+                    <div class="bg-fill-item"></div>
+                </div>
+            </div>
+            <button class="btn" id="prev-btn">PREV</button>
+            <button class="btn" id="next-btn">NEXT</button>
             <div id="follow-header" class="section-header">
                 <b></b>
                 <div><span>FOLLOW US ON SOCIAL MEDIA</span></div>
