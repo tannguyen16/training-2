@@ -51,13 +51,13 @@ $(function() {
     let startPoint = rightItemIndex;
     itemsToAnimate.push(items[startPoint]);
     indices.push(startPoint);
-    for(let i = 2; i > -1; i--) {
+    for(let i = 0; i < 3; i++) {
       startPoint = (startPoint - 1) % items.length;
       itemsToAnimate.push(items[startPoint]);
       indices.push(startPoint); 
     }
 
-    $(itemsToAnimate[itemsToAnimate.length - 1]).css('left', '1080px');
+    $(itemsToAnimate[itemsToAnimate.length - 1]).css('left', '-360px');
 
     $(itemsToAnimate).animate({
       left: '+=360',
