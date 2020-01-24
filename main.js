@@ -45,10 +45,28 @@ $(function() {
   });
 
   prevBtn.on('click', function(event) {
-    carousel.find('.item').animate({
+    const itemsToAnimate = [];
+    const indices = [];
+
+    let startPoint = rightItemIndex;
+    itemsToAnimate.push(items[startPoint]);
+    indices.push(startPoint);
+    for(let i = 2; i > -1; i--) {
+      startPoint = (startPoint - 1) % items.length;
+      itemsToAnimate.push(items[startPoint]);
+      indices.push(startPoint); 
+    }
+
+    $(itemsToAnimate[itemsToAnimate.length - 1]).css('left', '1080px');
+
+    $(itemsToAnimate).animate({
       left: '+=360',
-    }, 1000, function() {
+    }, 250, function() {
       // do something at the end here
+
     });
+
+    // leftItemIndex = indices[1];
+    // rightItemIndex = indices[indices.length - 1];
   });
 });
