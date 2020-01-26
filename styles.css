@@ -643,10 +643,35 @@ li:hover .underline {
 #carousel-container {
   width: 1080px;
   height: 400px;
-  border: 2px solid red;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
+}
+
+#prev-btn {
+  position: absolute;
+  left: 0;
+  top: 175px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+
+#prev-btn i {
+  color: black;
+}
+
+#next-btn {
+  position: absolute;
+  right: 0;
+  top: 175px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+
+#next-btn i {
+  color: black;
 }
 
 .item {
@@ -711,4 +736,94 @@ li:hover .underline {
 
 #carousel-container #item-8 .bg-fill-item {
   background-image: url(images/77091153_598060390965428_4070489076278642675_n.jpg);
+}
+
+
+.select-header {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 30px;
+  text-align: center;
+}
+
+#select-grid {
+  height: 1000px;
+  font-size: 0;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.select-item {
+  vertical-align:top;
+  width: 300px;
+  display: inline-block;
+  position: relative;
+  margin: 49px;
+  margin-top: 50px;
+  border: 1px solid #ececec;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.select-text {
+  font-size: 18px;
+  display: block;
+  position: relative;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.select-text-header {
+  opacity: 0.7;
+  height: 40px;
+  font-weight: 600;
+  background-color: rgba(0,0,0,0.02);
+  border-bottom: 1px solid #ececec;
+}
+
+.select-text-description {
+  font-size: 30px;
+  margin: 15px 30px;
+}
+
+.select-text-tax {
+  opacity: 0.6;
+  font-size: 12px;
+  margin: 15px 50px;
+}
+
+.select-text-feature {
+  opacity: 0.6;
+  font-size: 15px;
+  margin: 15px 50px;
+}
+
+.select-text b {
+  display: block;
+  margin: 10px auto;
+  height: 1px;
+  width: 80%;
+  opacity: .1;
+  background-color: black;
+}
+
+#select-2 {
+  margin-top: 0px;
+  border: 1px solid #552d00;
+  box-shadow: 0px 0px 20px 2px rgba(85,45,0,0.5);
+}
+
+#select-2 .select-text-header {
+  opacity: 1;
+  color: white;
+  background-color: #552d00;
+  border-bottom: 1px solid #552d00;
+}
+
+#select-1:hover {
+  box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.2);
+}
+
+#select-3:hover {
+  box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.2);
 }
